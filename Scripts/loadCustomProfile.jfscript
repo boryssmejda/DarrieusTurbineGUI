@@ -1,0 +1,37 @@
+
+// Get Java Classes for handling files
+var file        = new java.io.File("C:\\Users\\borys\\Desktop\\GUI_MATLAB\\dataStorageFile.txt");
+var fileReader  = new java.io.FileReader(file);
+var br          = new java.io.BufferedReader(fileReader); 
+
+
+// Read data storage file to get necessary information
+var filePath     = br.readLine(); 
+var density      = parseInt(br.readLine());
+var viscosity    = parseFloat(br.readLine());
+var speedOfSound = parseInt(br.readLine());
+var saveToFile   = br.readLine();
+
+print(density);
+print(viscosity);
+print(speedOfSound);
+
+
+// Set options for the profile based on information in the storage file
+Options.Country(0);
+Options.Density(density);
+Options.Viscosity(viscosity);
+Options.SpeedOfSound(speedOfSound);
+Options.MachNumber(0);
+Options.StallModel(0);
+Options.TransitionModel(1);
+Options.GroundEffect(0);
+Options.AspectRatio(0);
+
+
+Geometry.Open(filePath);
+Polar.Analyze(100000, 1000000, 100000, -180, 180, 1, 100, 100, 0, 0);
+Polar.Save(saveToFile);
+
+
+JavaFoil.Exit();
