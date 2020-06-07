@@ -1,4 +1,4 @@
-Van de Vooren symmetrischer Tropfen 28,333%, 57,0°
+Van de Vooren
 1,00000000  0,00000000
 0,99379056	0,00324130
 0,97993698	0,01005929
