@@ -1,0 +1,6 @@
+C:\Users\borys\Desktop\Final_GUI\Profiles\VO12.txt
+1.225
+0.000014607
+340
+1.000000e+05
+C:\Users\borys\Desktop\Final_GUI\JavafoilData\VO12.txt
