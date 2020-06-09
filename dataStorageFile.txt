@@ -1,6 +1,6 @@
-C:\Users\borys\Desktop\Final_GUI\Profiles\VO12.txt
-1.225
-0.000014607
-340
+C:\Users\borys\Desktop\Final_GUI\profiles\NACA2412.txt
+1000
+0.0000013053
+1447
 1.000000e+05
-C:\Users\borys\Desktop\Final_GUI\JavafoilData\VO12.txt
+C:\Users\borys\Desktop\Final_GUI\JavafoilData\NACA2412.txt
