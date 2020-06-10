@@ -1,0 +1,6 @@
+C:\Users\borys\Desktop\Final_GUI\profiles\NACA0012.txt
+1.225
+0.000014607
+340
+5.000000e+05
+C:\Users\borys\Desktop\Final_GUI\JavafoilData\NACA00122.txt
